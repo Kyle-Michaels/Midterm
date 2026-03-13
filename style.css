@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding-bottom: 180px;
+    margin-bottom: 90px;
     background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
     color: #e1e8ed;
     scroll-snap-type: y mandatory;
@@ -46,6 +47,7 @@ h2 {
 #timeline {
     margin: 0;
     padding: 0 40px;
+    padding-bottom: 400px;
 }
 
 .timeline {
@@ -60,7 +62,7 @@ h2 {
     width: 95%;
     padding: 20px;
     box-sizing: border-box;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,6 +73,21 @@ h2 {
     padding-top: 20px;
     height: 60vh;
 }
+
+
+.event-interests {
+    position: relative;
+    margin: 0 auto;
+    width: 95%;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 900vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
 
 
 
@@ -185,7 +202,6 @@ h2 {
     border: 2px solid #30363d;
     transition: all 0.3s;
 }
-
 
 
 /* Mobile responsiveness */
