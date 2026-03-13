@@ -184,13 +184,9 @@ h2 {
     border-radius: 8px;
     border: 2px solid #30363d;
     transition: all 0.3s;
-    cursor: pointer;
 }
 
-.timeline-pic:hover {
-    border-color: #58a6ff;
-    transform: scale(1.02);
-}
+
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
