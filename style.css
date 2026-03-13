@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding-bottom: 180px;
     background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
     color: #e1e8ed;
     scroll-snap-type: y mandatory;
@@ -23,6 +23,18 @@ h2 {
     color: #79c0ff;
     margin: 20px auto;
     text-shadow: 0 0 10px rgba(121, 192, 255, 0.15);
+}
+
+.hero {
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .bold {
@@ -57,8 +69,10 @@ h2 {
 
 .event:first-child {
     padding-top: 20px;
-    height: auto;
+    height: 60vh;
 }
+
+
 
 .event-content {
     background: linear-gradient(135deg, #1c2128 0%, #21262d 100%);
